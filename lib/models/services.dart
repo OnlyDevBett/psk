@@ -1,0 +1,17 @@
+class Services{
+  String asset;
+  String title;
+  String content;
+
+  Services(this.asset, this.title, this.content);
+
+}
+List <Services> services =[
+  Services("assets/images/services/coordination.png", "Paralegal Coordination and Training", "Paralegal Support Network has coordinated and trained Paralegals since its inception. The very reason why the network was formed was to ensure that paralegal work is well-coordinated and training is standardized. So far the network has trained over 1300 Paralegals within Kenya using a training curriculum that was developed in 2005. The training curriculum is currently before the Council for Legal Education for approval as a Paralegal Training curriculum."),
+  Services("assets/images/services/legal.png", "Legal Aid", "Through its trained Paralegals, PASUNE gives legal aid to Kenya and beyond to those who cannot afford the services of Lawyers. Lawyers are not also easily accessible as most of them are usually based in towns leaving the majority of Kenyans who are based in rural areas without legal support. Paralegals are not only available but also do not charge for their services. This has seen many poor Kenyans access legal aid and access justice."),
+  Services("assets/images/services/lobbying.jpg", "Lobbying and Advocacy of on Policy Development", "PASUNE looks into policies but also pushes "
+        "for the formation of new laws in the case that there are vacuums. When formed Paralegals were not accepted and they faced quite some challenges in the course of their work. That kept PASUNE on its toes to come up with ways of ensuring Paralegals were accepted and could practice without fear or intimidation. In doing so PASUNE pushed for a law that would recognize Paralegals and that how the Legal Aid Act came to being. PASUNE also pushed for Small Claims Courts Act which gives opportunities to Paralegals. Also pending is the Courts of Petty Sessions. If the latter is enacted, the two laws will give paralegals some space to put their skills into use by handling cases within the community. This will divert petty cases from the formal justice system hence decongesting the courts, prisons, and police station cells. Paralegals also sit in special committees like court users committees to lobby for policy change when need be."
+          "PASUNE also contributed to the newly enacted laws The Legal Aid Code of Conduct for Accredited Legal Aid Providers, 2019 which was gazetted on 8th July 2020 and The Legal Aid (General) Regulations, 2020 which was gazetted on 14th July 2020."),
+  Services("assets/images/services/information.png", "Information Dissemination", "PASUNE uses its training curriculum as a medium of passing information. The curriculum is widely accepted. It also prints bags, t-shirts, Brochures which carry legal messages."),
+  Services("assets/images/services/adr.jpg", "Alternative Dispute Resolution", "In support of Article 159 of the Constitution, PASUNE advocates for alternative ways of handling conflicts. In doing so, it has trained its paralegals as mediators. Most Paralegals can mediate on cases within their communities. That has helped to resolve matters within a short period of time but also lowering the number of cases that make their way to courts not forgetting that it gives room to the reconciliation of parties."),
+];
